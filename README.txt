@@ -1,4 +1,4 @@
-# This is the general analysis pipeline for Jasleen et al. (2019) paper
+# This is the general analysis pipeline for Singh et al. (2019) paper
 # Dependencies: samtools (Version: 1.5), bowtie (version 1.2.2)
 # In-house script: PE_trimadapter.py, Transcript_sequences.py, mismatch.py
 # GEO accession number: GSE126086
