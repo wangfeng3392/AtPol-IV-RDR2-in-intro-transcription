@@ -295,7 +295,7 @@ def main(arg_input):
 
 		for strand in mismatch_output[5]:
 			for size in mismatch_output[5][strand]:
-				if size not in sum_total_pos:
+				if size not in sum_total_pos[strand]:
 					sum_total_pos[strand][size] = mismatch_output[5][strand][size]
 				else:
 					sum_total_pos[strand][size] += mismatch_output[5][strand][size]
